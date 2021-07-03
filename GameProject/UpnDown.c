@@ -4,6 +4,17 @@
 
 void UpnDown() {  //업 엔 다운 게임
 	int ud = 0, write = 0, result = 0, count = 1;
+
+	printf("\t\t\t\t\t\t\t\t");
+	printf("**********************************\n");
+	printf("\t\t\t\t\t\t\t\t");
+	printf("**********************************\n");
+	printf("\t\t\t\t\t\t\t\t");
+	printf("***Up and Down 게임을 시작합니다**\n");
+	printf("\t\t\t\t\t\t\t\t");
+	printf("**********************************\n");
+	printf("\t\t\t\t\t\t\t\t");
+	printf("**********************************\n\n");
 	
 	printf("\t\t\t\t\t\t\t\t숫자 범위를 입력하세요 : "); //끝 범위 정하기.
 	scanf_s("%d", &ud);
@@ -13,8 +24,9 @@ void UpnDown() {  //업 엔 다운 게임
 	result = rand() % ud+1; // 1부터 끝 범위 중 난수 발생.
 	//printf("%d \n", result); //결과 중간 개발자 확인용
 		
-	//for문 사용
-	for (int i = 0; i < ud; i++)
+	//무한 루프를 돌려서 정답을 맞출때까지 플레이 or 정해진 횟수안에 맞추기
+	//for (int i = 0; i < ud; i++)
+	while(1)
 	{
 		printf("\t\t\t\t\t\t\t\t%d 번째 시도입니다.\t", count);
 		printf("값을 입력하세요 : ");
@@ -22,9 +34,11 @@ void UpnDown() {  //업 엔 다운 게임
 
 		if (write > ud || write <= 0) {
 			printf("\n\t\t\t\t\t\t\t\t");
+			textcolor(12);
 			printf("***********************Warning!!!***********************\n");
 			printf("\t\t\t\t\t\t\t\t");
 			printf("숫자의 범위를 넘어섰습니다! 1~%d 사이의 숫자를 다시 입력해주세요!\n\n", ud);
+			textcolor(11);
 			continue;
 		}
 

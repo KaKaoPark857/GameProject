@@ -336,9 +336,9 @@ void Dice() {
 		printf("\t\t\t\t\t\t\t\t");
 		printf("**********************************\n");
 		printf("\t\t\t\t\t\t\t\t");
-		printf("**********************************\n");
+		printf("**********************************\n\n");
 
-		printf("\n\t\t\t\t\t\t\t\t");
+		printf("\t\t\t\t\t\t\t\t");
 		printf("최대 4명까지 플레이가 가능합니다!!!\n");
 		printf("\t\t\t\t\t\t\t\t");
 		printf("플레이 할 인원을 입력해주세요(종료는 0) : ");
@@ -381,9 +381,11 @@ void Dice() {
 		default: //최대 플레이어수인 4를 넘어갈때
 			system("cls");
 			printf("\t\t\t\t\t\t\t\t");
+			textcolor(12);
 			printf("*************Warning*************\n");
 			printf("\t\t\t\t\t\t\t\t");
 			printf("최대 4명까지 입력이 가능합니다.\n\n");
+			textcolor(11);
 			continue;
 		}
 	}
