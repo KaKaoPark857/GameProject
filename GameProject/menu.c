@@ -39,6 +39,7 @@ int menu() {
 			Select3();
 			textcolor(11); printf("게임 점검 중입니다.\n");
 			//baseBall();
+			system("pause");
 			system("cls");
 			break;
 		case 4: 
@@ -56,7 +57,9 @@ int menu() {
 		case 6: 
 			Select6();
 			textcolor(11);
-			//blackJack or 섯다
+			textcolor(11); printf("게임 점검 중입니다.\n");
+			system("pause");
+			//BlackJack();
 			break;
 		default: goto END;
 		}
