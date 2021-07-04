@@ -37,8 +37,8 @@ int menu() {
 			break;
 		case 3: 
 			Select3();
-			textcolor(11); printf("게임 점검 중입니다.\n");
-			//baseBall();
+			textcolor(11);
+			print();
 			system("pause");
 			system("cls");
 			break;

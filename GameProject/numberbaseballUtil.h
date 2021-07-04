@@ -1,3 +1,4 @@
+#pragma once
 #ifndef NUMBERBASEBALLUTIL_H
 int answer[3];
 int strike, ball;

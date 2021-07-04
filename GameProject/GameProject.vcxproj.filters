@@ -42,5 +42,22 @@
     <ClCompile Include="munuSelect.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="getinput.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="initiliaze.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="compare_answer_player.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="print.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="numberbaseballUtil.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

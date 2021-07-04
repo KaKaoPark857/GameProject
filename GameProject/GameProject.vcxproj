@@ -148,6 +148,13 @@
     <ClCompile Include="ThreeTime.c" />
     <ClCompile Include="UpnDown.c" />
     <ClCompile Include="Util.c" />
+    <ClCompile Include="getinput.c" />
+    <ClCompile Include="initiliaze.c" />
+    <ClCompile Include="compare_answer_player.c" />
+    <ClCompile Include="print.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="numberbaseballUtil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

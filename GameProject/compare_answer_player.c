@@ -24,7 +24,7 @@ void compare_answer_player(int* answer, int* player)
 
 int print_and_check_result() {
 
-
+    printf("\t\t\t\t\t\t\t\t");
     printf("[결과] 스트라이크 : %d, 볼 : %d \n\n", strike, ball);
 
 
