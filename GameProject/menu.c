@@ -14,7 +14,7 @@ int menu() {
 		printf("\t\t\t\t\t\t\t\t");
 		printf("1. 가위바위보\t2. 3 6 9 게임\t3. 숫자 야구\n");
 		printf("\t\t\t\t\t\t\t\t");
-		printf("4. 업엔 다운\t5. 주사위 굴리기\t\n");
+		printf("4. 업 엔 다운\t5. 주사위 게임\t6. 블랙 잭\n");
 		printf("\t\t\t\t\t\t\t\t");
 		printf("==============================================\n");
 		printf("\t\t\t\t\t\t\t\t");
@@ -37,7 +37,7 @@ int menu() {
 			break;
 		case 3: 
 			Select3();
-			textcolor(11);
+			textcolor(11); printf("게임 점검 중입니다.\n");
 			//baseBall();
 			system("cls");
 			break;
