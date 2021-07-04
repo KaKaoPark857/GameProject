@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlackJack.c" />
     <ClCompile Include="Dice.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="menu.c" />
+    <ClCompile Include="munuSelect.c" />
     <ClCompile Include="RockScissorPaper.c" />
     <ClCompile Include="ThreeTime.c" />
     <ClCompile Include="UpnDown.c" />

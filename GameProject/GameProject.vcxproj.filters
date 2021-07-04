@@ -36,5 +36,11 @@
     <ClCompile Include="Util.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BlackJack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="munuSelect.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
